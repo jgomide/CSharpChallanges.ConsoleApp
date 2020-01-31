@@ -1,0 +1,11 @@
+D:\projects\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\bin\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.exe
+D:\projects\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\bin\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.deps.json
+D:\projects\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\bin\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.runtimeconfig.json
+D:\projects\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\bin\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.runtimeconfig.dev.json
+D:\projects\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\bin\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.dll
+D:\projects\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\bin\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.pdb
+D:\projects\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\obj\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.csprojAssemblyReference.cache
+D:\projects\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\obj\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.AssemblyInfoInputs.cache
+D:\projects\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\obj\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.AssemblyInfo.cs
+D:\projects\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\obj\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.dll
+D:\projects\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\obj\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.pdb
