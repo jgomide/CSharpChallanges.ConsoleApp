@@ -1,0 +1,11 @@
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\bin\Debug\netcoreapp3.1\SortDates.exe
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\bin\Debug\netcoreapp3.1\SortDates.deps.json
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\bin\Debug\netcoreapp3.1\SortDates.runtimeconfig.json
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\bin\Debug\netcoreapp3.1\SortDates.runtimeconfig.dev.json
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\bin\Debug\netcoreapp3.1\SortDates.dll
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\bin\Debug\netcoreapp3.1\SortDates.pdb
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\obj\Debug\netcoreapp3.1\SortDates.csprojAssemblyReference.cache
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\obj\Debug\netcoreapp3.1\SortDates.AssemblyInfoInputs.cache
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\obj\Debug\netcoreapp3.1\SortDates.AssemblyInfo.cs
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\obj\Debug\netcoreapp3.1\SortDates.dll
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\obj\Debug\netcoreapp3.1\SortDates.pdb

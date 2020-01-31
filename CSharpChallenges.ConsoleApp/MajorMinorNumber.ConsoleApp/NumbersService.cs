@@ -20,11 +20,9 @@ namespace MajorMinorNumber.ConsoleApp
                     if (higherNumber == number)
                         sameNumber = number;
 
-                    //check witch number is big
+                    //check wich number is bigger
                     if (higherNumber < number)
-                        higherNumber = number;
-
-                    
+                        higherNumber = number;                    
                 }                
                 if (sameNumber != -1001)
                     ListLogs.Add(new LogMessage(102, $"Both numbers are the same ({higherNumber})."));
