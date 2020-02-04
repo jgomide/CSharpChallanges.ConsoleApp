@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\CSharpChallenges.ConsoleApp\\CSharpChallenges.ConsoleApp\\SortDates\\Prototype.csproj",
-      "projectName": "Prototype",
-      "projectPath": "D:\\projects\\CSharpChallenges.ConsoleApp\\CSharpChallenges.ConsoleApp\\SortDates\\Prototype.csproj",
+      "projectUniqueName": "D:\\projects\\CSharpChallenges.ConsoleApp\\CSharpChallenges.ConsoleApp\\SortDates\\SortDates.csproj",
+      "projectName": "SortDates",
+      "projectPath": "D:\\projects\\CSharpChallenges.ConsoleApp\\CSharpChallenges.ConsoleApp\\SortDates\\SortDates.csproj",
       "packagesPath": "C:\\Users\\Gomide\\.nuget\\packages\\",
       "outputPath": "D:\\projects\\CSharpChallenges.ConsoleApp\\CSharpChallenges.ConsoleApp\\SortDates\\obj\\",
       "projectStyle": "PackageReference",

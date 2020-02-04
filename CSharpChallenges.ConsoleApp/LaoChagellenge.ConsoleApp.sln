@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgeMajority.ConsoleApp", "A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MajorMinorNumber.ConsoleApp", "MajorMinorNumber.ConsoleApp\MajorMinorNumber.ConsoleApp.csproj", "{B38DB823-4529-410B-87C8-17931EC2B097}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "SortDates\Prototype.csproj", "{3646EF1F-511F-4BE8-86C7-60F710E76DE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortDates", "SortDates\SortDates.csproj", "{3646EF1F-511F-4BE8-86C7-60F710E76DE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
