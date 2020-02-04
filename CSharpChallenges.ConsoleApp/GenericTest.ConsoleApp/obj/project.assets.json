@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\CSharpChallenges.ConsoleApp\\CSharpChallenges.ConsoleApp\\SortDates\\SortDates.ConsoleApp.csproj",
-      "projectName": "SortDates.ConsoleApp",
-      "projectPath": "D:\\projects\\CSharpChallenges.ConsoleApp\\CSharpChallenges.ConsoleApp\\SortDates\\SortDates.ConsoleApp.csproj",
+      "projectUniqueName": "D:\\projects\\CSharpChallenges.ConsoleApp\\CSharpChallenges.ConsoleApp\\GenericTest.ConsoleApp\\GenericTest.ConsoleApp.csproj",
+      "projectName": "GenericTest.ConsoleApp",
+      "projectPath": "D:\\projects\\CSharpChallenges.ConsoleApp\\CSharpChallenges.ConsoleApp\\GenericTest.ConsoleApp\\GenericTest.ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\Gomide\\.nuget\\packages\\",
-      "outputPath": "D:\\projects\\CSharpChallenges.ConsoleApp\\CSharpChallenges.ConsoleApp\\SortDates\\obj\\",
+      "outputPath": "D:\\projects\\CSharpChallenges.ConsoleApp\\CSharpChallenges.ConsoleApp\\GenericTest.ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gomide\\AppData\\Roaming\\NuGet\\NuGet.Config",

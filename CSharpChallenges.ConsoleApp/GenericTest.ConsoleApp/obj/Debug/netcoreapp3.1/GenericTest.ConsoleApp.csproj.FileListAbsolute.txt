@@ -1,0 +1,11 @@
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\GenericTest.ConsoleApp\bin\Debug\netcoreapp3.1\GenericTest.ConsoleApp.exe
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\GenericTest.ConsoleApp\bin\Debug\netcoreapp3.1\GenericTest.ConsoleApp.deps.json
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\GenericTest.ConsoleApp\bin\Debug\netcoreapp3.1\GenericTest.ConsoleApp.runtimeconfig.json
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\GenericTest.ConsoleApp\bin\Debug\netcoreapp3.1\GenericTest.ConsoleApp.runtimeconfig.dev.json
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\GenericTest.ConsoleApp\bin\Debug\netcoreapp3.1\GenericTest.ConsoleApp.dll
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\GenericTest.ConsoleApp\bin\Debug\netcoreapp3.1\GenericTest.ConsoleApp.pdb
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\GenericTest.ConsoleApp\obj\Debug\netcoreapp3.1\GenericTest.ConsoleApp.csprojAssemblyReference.cache
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\GenericTest.ConsoleApp\obj\Debug\netcoreapp3.1\GenericTest.ConsoleApp.AssemblyInfoInputs.cache
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\GenericTest.ConsoleApp\obj\Debug\netcoreapp3.1\GenericTest.ConsoleApp.AssemblyInfo.cs
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\GenericTest.ConsoleApp\obj\Debug\netcoreapp3.1\GenericTest.ConsoleApp.dll
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\GenericTest.ConsoleApp\obj\Debug\netcoreapp3.1\GenericTest.ConsoleApp.pdb

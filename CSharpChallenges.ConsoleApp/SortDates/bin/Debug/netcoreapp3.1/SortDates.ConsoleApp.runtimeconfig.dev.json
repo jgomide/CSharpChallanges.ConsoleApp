@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Gomide\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Gomide\\.nuget\\packages"
+    ]
+  }
+}
