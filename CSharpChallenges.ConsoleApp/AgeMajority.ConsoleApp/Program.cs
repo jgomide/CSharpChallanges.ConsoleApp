@@ -1,14 +1,22 @@
-﻿using System;
+﻿using AgeMajority.ConsoleApp.Enums;
+using AgeMajority.ConsoleApp.Services;
+using System;
+using AgeMajority.ConsoleApp.Extensions;
+using AgeMajority.ConsoleApp.Resources;
+using System.Linq;
 
 namespace AgeMajority.ConsoleApp
 {
     class Program
     {
         static void Main(string[] args)
-        {
+        {       
+            AgeMajorityService ageMajorityService = new AgeMajorityService();
+
             while (true)
             {
-                Console.WriteLine("Enter a age or 'q' to quit");
+                //Console.WriteLine(_EnumExtension.GetDescription(_CodeMessageEnum.ENTER_AGE_OR_PRESS_Q_QUIT));
+                Console.WriteLine(Messages.ENTER_AGE_OR_PRESS_Q_QUIT);
                 var input = Console.ReadLine();
                 
                 if (input == "q")
@@ -19,15 +27,19 @@ namespace AgeMajority.ConsoleApp
 
                 try
                 {
-                    int age = Int32.Parse(input);
-                    
-                    if (age < 0)
-                    {
-                        throw new System.ArgumentException("Age cannot be less tem 0", "original");
-                    }
+                    ageMajorityService.CheckAge(input);
 
-                    string result = AgeMajority.CheckAge(age);
-                    Console.WriteLine(result);
+                    if (ageMajorityService.ListLogs.Any())
+                    {
+                        foreach (var logMessage in ageMajorityService.ListLogs)
+                        {
+                            Console.WriteLine($"INPUT: {input} RESULT: {(logMessage.message)}");
+
+                            //Console.WriteLine($"Error number: {EnumExtension.GetDescription(logMessage.message)}");
+                        }
+
+                        ageMajorityService.ListLogs.Clear();
+                    }                    
                 }
                 catch (ArgumentException ex)
                 {
@@ -35,8 +47,7 @@ namespace AgeMajority.ConsoleApp
                     //throw;    
                 }
                 catch (FormatException ex)
-                {
-                    Console.WriteLine("Age needs to be numeric.");
+                {                    
                     Console.WriteLine(ex.Message);
                     //throw;    
                 }

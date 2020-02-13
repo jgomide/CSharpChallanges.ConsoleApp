@@ -1,36 +1,44 @@
-﻿using System;
+﻿using SortDates.ConsoleApp.Enums;
+using System;
 
 
 namespace SortDates.ConsoleApp
 {
-    class DateCheckAppService : BaseLog
+    //class DateCheckAppService : BaseLog
+    //{
+    //    public static DateTime convertDate(string dateInput)
+    //    {
+    //        DateTime dateValue;
+    //        DateTime.TryParse(dateInput, out dateValue);
+    //        return dateValue;
+    //    }
+    //    public bool isDateTime (string dateInput)
+    //    {
+    //        DateTime dateValue;
+    //        if (!DateTime.TryParse(dateInput, out dateValue))
+    //            ListLogs.Add(new LogMessage(201, "Format incorrect, please insert a valid date."));
+    //        return DateTime.TryParse(dateInput, out dateValue);
+    //    }
+    //}
+
+    public class DateCheckAppService : BaseLog
     {
-        public static DateTime convertDate(string dateInput)
+        public static DateTime ConvertDate(string dateInput)
         {
             DateTime dateValue;
             DateTime.TryParse(dateInput, out dateValue);
             return dateValue;
-
-
-
-            /*if (!DateTime.TryParse(dateInput, out dateValue))
-                Console.WriteLine(dateValue);
-            else
-                Console.WriteLine("ERROR Convert Date");*/
         }
-        public bool isDateTime (string dateInput)
+        public bool IsDateTime(string dateInput)
         {
-            DateTime dateValue;
-            if (!DateTime.TryParse(dateInput, out dateValue))
-                ListLogs.Add(new LogMessage(201, "Format incorrect, please insert a valid date."));
-            return DateTime.TryParse(dateInput, out dateValue);
+            var isValid = DateTime.TryParse(dateInput, out _);
 
+            if (!isValid)
+            {
+                ListLogs.Add(new LogMessage(CodeMessageEnum.INVALID_DATE, "Format incorrect, please insert a valid date."));
+            }           
 
-
-            /*if (!DateTime.TryParse(dateInput, out dateValue))
-                Console.WriteLine(dateValue);
-            else
-                Console.WriteLine("ERROR Convert Date");*/
+            return isValid;
         }
     }
 }

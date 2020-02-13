@@ -1,18 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using SortDates.ConsoleApp.Enums;
 
 namespace SortDates.ConsoleApp
 {
     public class LogMessage
     {
-        public int codMessage;
+        public int codeMessage;
         public string message;
 
-        public LogMessage(int CodMessage, string Message) 
+
+        public LogMessage(CodeMessageEnum codeMessage, string Message)
         {
-            this.codMessage = CodMessage;
-            this.message = Message;        
+            this.codeMessage = (int)codeMessage;
+            this.message = Message;
         }
     }
 }

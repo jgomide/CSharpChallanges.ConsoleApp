@@ -9,3 +9,16 @@ D:\projects\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp
 D:\projects\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\obj\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.AssemblyInfo.cs
 D:\projects\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\obj\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.dll
 D:\projects\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\AgeMajority.ConsoleApp\obj\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.pdb
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\AgeMajority.ConsoleApp\bin\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.exe
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\AgeMajority.ConsoleApp\bin\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.deps.json
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\AgeMajority.ConsoleApp\bin\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.runtimeconfig.json
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\AgeMajority.ConsoleApp\bin\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.runtimeconfig.dev.json
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\AgeMajority.ConsoleApp\bin\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.dll
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\AgeMajority.ConsoleApp\bin\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.pdb
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\AgeMajority.ConsoleApp\obj\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.csprojAssemblyReference.cache
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\AgeMajority.ConsoleApp\obj\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.AssemblyInfoInputs.cache
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\AgeMajority.ConsoleApp\obj\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.AssemblyInfo.cs
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\AgeMajority.ConsoleApp\obj\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.dll
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\AgeMajority.ConsoleApp\obj\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.pdb
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\AgeMajority.ConsoleApp\obj\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.Resources.Messages.resources
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\AgeMajority.ConsoleApp\obj\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.csproj.GenerateResource.cache

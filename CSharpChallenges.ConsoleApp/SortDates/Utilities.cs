@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace SortDates.ConsoleApp
 {
     static class Utilities
     {
-        public static string dateCount(int inputCount)
+        public enum DateSeq
+        {
+            first=1, second=2, third=3
+        }
+        public static string DateCount(int inputCount)
         {
             if (inputCount == 0) return "FIRST";
             else if (inputCount == 1) return "SECOND";
