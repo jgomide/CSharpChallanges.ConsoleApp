@@ -1,16 +1,37 @@
-﻿using AgeMajority.ConsoleApp.Interfaces;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace AgeMajority.ConsoleApp.Validations
 {
-    public class BaseLog : IBaseLog
+    public abstract class BaseLog
     {
-        //ListLogs used in all classes to carry the errors/results
-        public List<LogMessage> ListLogs { get; set; } = new List<LogMessage>();
+        public abstract int NumberOfSides(int a, int b);
 
-        /*public BaseLog(int ListcodMessage)
+        private static List<LogMessage> ListLogs { get; set; } = new List<LogMessage>();
+
+        public void AddLogMessage(string message)
         {
+            ListLogs.Add(new LogMessage(message));
+        }
 
-        }*/
+        public void AddLogMessageRange(List<LogMessage> logMessages)
+        {
+            ListLogs.AddRange(logMessages);
+        }
+
+        public List<LogMessage> GetMessages()
+        {
+            return ListLogs;
+        }
+
+        public bool HasMessages()
+        {
+            return ListLogs.Any();
+        }
+
+        public void CleanMessages()
+        {
+            ListLogs.Clear();
+        }
     }
 }

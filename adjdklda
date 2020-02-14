@@ -1,0 +1,59 @@
+* [33mcommit bfc02aa56d3513caea0a85f42f86dc613100d222[m[33m ([m[1;36mHEAD -> [m[1;32mfeature/dependenceInjection-Implementation-AgeMajority[m[33m)[m
+[31m|[m Author: Gomide <jefersongomide@gmail.com>
+[31m|[m Date:   Fri Feb 14 14:53:14 2020 +1100
+[31m|[m 
+[31m|[m     DI Implemented on AgeMejority
+[31m|[m 
+* [33mcommit 8d9f7fb1b3ca0a1c74d73953ec358ea6f7b498b7[m[33m ([m[1;31morigin/feature/dependenceInjection-Implementation-AgeMajority[m[33m)[m
+[31m|[m Author: Gomide <jefersongomide@gmail.com>
+[31m|[m Date:   Fri Feb 14 12:51:44 2020 +1100
+[31m|[m 
+[31m|[m     daily update
+[31m|[m 
+* [33mcommit 53f0f4a04d928ca3046d897322ee07d2d684ac85[m
+[31m|[m Author: Gomide <jefersongomide@gmail.com>
+[31m|[m Date:   Thu Feb 13 16:59:38 2020 +1100
+[31m|[m 
+[31m|[m     MatozinhoEhOCara
+[31m|[m   
+[31m|[m * [33mcommit 1038c81908ee0e53749ea1cd501f79eeee4039e7[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+[31m|[m[31m/[m  Author: Gomide <jefersongomide@gmail.com>
+[31m|[m   Date:   Thu Feb 13 17:12:10 2020 +1100
+[31m|[m   
+[31m|[m       test
+[31m|[m 
+* [33mcommit f6c26c67938e8c1bbe992fdc31d82c678e8a55aa[m
+[32m|[m Author: Gomide <jefersongomide@gmail.com>
+[32m|[m Date:   Thu Feb 13 16:43:54 2020 +1100
+[32m|[m 
+[32m|[m     AgeMajority Logic Refactored
+[32m|[m 
+* [33mcommit dab377d063a1966ba3940b02503ba3b5ec631f85[m
+[32m|[m Author: Gomide <jefersongomide@gmail.com>
+[32m|[m Date:   Tue Feb 4 18:03:41 2020 +1100
+[32m|[m 
+[32m|[m     add new project exercise SortDates
+[32m|[m 
+* [33mcommit 778c29ae60181f4bb1b4b8e1ffee6efcbf0289e2[m
+[32m|[m Author: Gomide <jefersongomide@gmail.com>
+[32m|[m Date:   Tue Feb 4 13:22:23 2020 +1100
+[32m|[m 
+[32m|[m     end of the day commit[1;3k
+[32m|[m 
+* [33mcommit b394b9c6cb6eba39c4007a258ce705fd9db03433[m
+[32m|[m Author: Gomide <jefersongomide@gmail.com>
+[32m|[m Date:   Fri Jan 31 17:23:10 2020 +1100
+[32m|[m 
+[32m|[m     add READMI.txt with detaisl about it project
+[32m|[m 
+* [33mcommit e1baf7511e68af8fa20f5d9cfc7f7274a9a5e2a5[m
+[32m|[m Author: Gomide <jefersongomide@gmail.com>
+[32m|[m Date:   Fri Jan 31 15:34:25 2020 +1100
+[32m|[m 
+[32m|[m     cleaning old files
+[32m|[m 
+* [33mcommit d956324f7cb6e39b69f3e2d55c8bc5dc21e692d6[m
+  Author: Gomide <jefersongomide@gmail.com>
+  Date:   Fri Jan 31 15:18:06 2020 +1100
+  
+      First Commit

@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Linq;
 using AgeMajority.ConsoleApp.Interfaces;
 using AgeMajority.ConsoleApp.Validations;
 
 
 namespace AgeMajority.ConsoleApp
 {
-    class Application : BaseLog, IApplication 
+    class Application : BaseLog, IApplication
     {
         IAgeMajorityService _ageMajorityService;
 
@@ -19,16 +18,16 @@ namespace AgeMajority.ConsoleApp
         {
             _ageMajorityService.CheckAge(input);
 
-            if (_ageMajorityService.ListLogs.Any())
+            if (HasMessages())
             {
-                foreach (var logMessage in _ageMajorityService.ListLogs)
+                foreach (var logMessage in GetMessages())
                 {
+                    Console.WriteLine("----------------------------------------------");
                     Console.WriteLine($"INPUT: {input} RESULT: {(logMessage.message)}");
-
-                    //Console.WriteLine($"Error number: {EnumExtension.GetDescription(logMessage.message)}");
+                    Console.WriteLine("----------------------------------------------");
                 }
 
-                _ageMajorityService.ListLogs.Clear();
+                CleanMessages();
             }
         }
     }

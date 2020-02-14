@@ -7,6 +7,10 @@ namespace AgeMajority.ConsoleApp.Extensions
 {
     public static class _EnumExtension
     {
+        //how to use
+        //Console.WriteLine(_EnumExtension.GetDescription(_CodeMessageEnum.ENTER_AGE_OR_PRESS_Q_QUIT));
+
+
         public static string GetDescription<T>(this T e) where T : IConvertible
         {
             if (e is Enum)

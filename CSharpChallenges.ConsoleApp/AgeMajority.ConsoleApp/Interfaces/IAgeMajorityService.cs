@@ -1,6 +1,6 @@
 ﻿namespace AgeMajority.ConsoleApp.Interfaces
 {
-    public interface IAgeMajorityService : IBaseLog
+    public interface IAgeMajorityService
     {
         void CheckAge(string input);
     }

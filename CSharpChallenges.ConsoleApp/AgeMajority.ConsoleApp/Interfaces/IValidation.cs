@@ -1,11 +1,8 @@
 ﻿
 namespace AgeMajority.ConsoleApp.Interfaces
 {
-    public interface IValidation : IBaseLog
+    public interface IValidation
     {
-        bool ValidateInput(string input);
-        /*bool IsValidInputFormat(string input);
-        bool IsAgeOverMaxAllowed(int age);
-        bool IsAgeUnderMinAllowed(int age);*/
+        bool ValidateInput(string input);        
     }
 }

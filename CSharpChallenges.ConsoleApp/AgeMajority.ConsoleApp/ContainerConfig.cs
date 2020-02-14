@@ -2,8 +2,6 @@
 using AgeMajority.ConsoleApp.Services;
 using AgeMajority.ConsoleApp.Validations;
 using Autofac;
-using System.Linq;
-using System.Reflection;
 
 namespace AgeMajority.ConsoleApp
 {
@@ -16,14 +14,8 @@ namespace AgeMajority.ConsoleApp
 
             builder.RegisterType<Application>().As<IApplication>();
             builder.RegisterType<AgeMajorityService>().As<IAgeMajorityService>();
-            builder.RegisterType<BaseLog>().As<IBaseLog>();
-
-
+            //builder.RegisterType<BaseLog>().As<_IBaseLog>();
             builder.RegisterType<Validation>().As<IValidation>();
-            
-            /*builder.RegisterAssemblyTypes(Assembly.Load(("AgeMajority.ConsoleApp")))
-                .Where(t => t.Namespace.Contains("Validations"))
-                .As(t => t.GetInterfaces().FirstOrDefault(i => i.Name == "I" + t.Name));*/
 
             return builder.Build();
 

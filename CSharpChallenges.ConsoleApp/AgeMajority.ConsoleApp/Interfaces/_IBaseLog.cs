@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace AgeMajority.ConsoleApp.Interfaces
 {
-    public interface IBaseLog
+    public interface _IBaseLog
     {
         List<LogMessage> ListLogs { get; set; }
     }

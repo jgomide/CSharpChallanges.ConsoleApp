@@ -1,6 +1,5 @@
 ﻿using AgeMajority.ConsoleApp.Interfaces;
 using AgeMajority.ConsoleApp.Resources;
-using System;
 
 namespace AgeMajority.ConsoleApp.Validations
 {
@@ -14,13 +13,13 @@ namespace AgeMajority.ConsoleApp.Validations
 
                 if (IsAgeOverMaxAllowed(age))
                 {
-                    ListLogs.Add(new LogMessage(Messages.AGE_CANT_BE_MORE_THAN_200));
+                    AddLogMessage(Messages.AGE_CANT_BE_MORE_THAN_200);
                     return false;
                 }
 
                 if (IsAgeUnderMinAllowed(age))
                 {
-                    ListLogs.Add(new LogMessage(Messages.AGE_CANT_BE_LESS_THAN_ZERO));
+                    AddLogMessage(Messages.AGE_CANT_BE_LESS_THAN_ZERO);
                     return false;
                 }
 
@@ -28,7 +27,7 @@ namespace AgeMajority.ConsoleApp.Validations
             }
             else
             {
-                ListLogs.Add(new LogMessage(Messages.INPUT_FORMAT_INCORRECT));
+                AddLogMessage(Messages.INPUT_FORMAT_INCORRECT);
                 return false;
             }
         }

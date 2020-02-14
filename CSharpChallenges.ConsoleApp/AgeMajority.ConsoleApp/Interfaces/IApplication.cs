@@ -1,4 +1,4 @@
-﻿namespace AgeMajority.ConsoleApp
+﻿namespace AgeMajority.ConsoleApp.Interfaces
 {
     interface IApplication
     {

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MajorMinorNumber.ConsoleApp
+﻿namespace MajorMinorNumber.ConsoleApp
 {
     public class LogMessage
     {
