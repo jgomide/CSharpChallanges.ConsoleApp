@@ -22,3 +22,5 @@ D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\AgeMajority.
 D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\AgeMajority.ConsoleApp\obj\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.pdb
 D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\AgeMajority.ConsoleApp\obj\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.Resources.Messages.resources
 D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\AgeMajority.ConsoleApp\obj\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.csproj.GenerateResource.cache
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\AgeMajority.ConsoleApp\bin\Debug\netcoreapp3.1\Autofac.dll
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\AgeMajority.ConsoleApp\obj\Debug\netcoreapp3.1\AgeMajority.ConsoleApp.csproj.CopyComplete

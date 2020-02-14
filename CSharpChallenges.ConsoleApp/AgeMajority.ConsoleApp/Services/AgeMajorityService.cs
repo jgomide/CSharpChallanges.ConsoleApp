@@ -1,29 +1,31 @@
 ﻿using AgeMajority.ConsoleApp.Resources;
+using AgeMajority.ConsoleApp.Interfaces;
 using AgeMajority.ConsoleApp.Validations;
 
 
 namespace AgeMajority.ConsoleApp.Services
 {
-    public class AgeMajorityService : BaseLog 
+    public class AgeMajorityService : BaseLog, IAgeMajorityService
     {
 
-        private readonly Validations.Validations _basicValidations;
+        IValidation _validations;
+
         //matozinhoehocara
 
-        public AgeMajorityService()
+        public AgeMajorityService(IValidation validations)
         {
-            _basicValidations = new Validations.Validations();
+            _validations = validations;
         }
-
+        
         public void CheckAge(string input)
-        {   
-            var isValid = _basicValidations.ValidateInput(input);
-            
-            
+        {
+            var isValid = _validations.ValidateInput(input);
+
+
             if (isValid)
             {
                 var age = int.Parse(input);
-                
+
                 if (age < 18)
                     this.ListLogs.Add(new LogMessage(Messages.IS_STILL_MINOR_AGE));
                 else
@@ -31,11 +33,9 @@ namespace AgeMajority.ConsoleApp.Services
             }
             else
             {
-                this.ListLogs.AddRange(_basicValidations.ListLogs);
-                _basicValidations.ListLogs.Clear();
+                this.ListLogs.AddRange(_validations.ListLogs);
+                _validations.ListLogs.Clear();
             }
-
-            
         }
     }
 }

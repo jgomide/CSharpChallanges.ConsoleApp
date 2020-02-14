@@ -1,17 +1,15 @@
-﻿using AgeMajority.ConsoleApp.Enums;
-using AgeMajority.ConsoleApp.Services;
-using System;
-using AgeMajority.ConsoleApp.Extensions;
+﻿using AgeMajority.ConsoleApp.Services;
 using AgeMajority.ConsoleApp.Resources;
-using System.Linq;
+using System;
+using Autofac;
 
 namespace AgeMajority.ConsoleApp
 {
     class Program
     {
         static void Main(string[] args)
-        {       
-            AgeMajorityService ageMajorityService = new AgeMajorityService();
+        {   
+            //AgeMajorityService ageMajorityService = new AgeMajorityService();
 
             while (true)
             {
@@ -27,7 +25,16 @@ namespace AgeMajority.ConsoleApp
 
                 try
                 {
-                    ageMajorityService.CheckAge(input);
+                    var container = ContainerConfig.Configure();
+
+                    using (var scope = container.BeginLifetimeScope())
+                    {
+                        var app = scope.Resolve<IApplication>();
+                        app.Run(input);
+                    }
+                    
+                    
+                    /*ageMajorityService.CheckAge(input);
 
                     if (ageMajorityService.ListLogs.Any())
                     {
@@ -39,7 +46,7 @@ namespace AgeMajority.ConsoleApp
                         }
 
                         ageMajorityService.ListLogs.Clear();
-                    }                    
+                    }                    */
                 }
                 catch (ArgumentException ex)
                 {
