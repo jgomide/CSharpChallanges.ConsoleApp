@@ -14,7 +14,6 @@ namespace AgeMajority.ConsoleApp
 
             builder.RegisterType<Application>().As<IApplication>();
             builder.RegisterType<AgeMajorityService>().As<IAgeMajorityService>();
-            //builder.RegisterType<BaseLog>().As<_IBaseLog>();
             builder.RegisterType<Validation>().As<IValidation>();
 
             return builder.Build();
