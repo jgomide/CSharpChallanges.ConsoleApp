@@ -1,9 +1,7 @@
-﻿using AgeMajority.ConsoleApp.Interfaces;
-using AgeMajority.ConsoleApp.Services;
-using AgeMajority.ConsoleApp.Validations;
+﻿using MajorMinorNumber.ConsoleApp.Validations;
 using Autofac;
 
-namespace AgeMajority.ConsoleApp
+namespace MajorMinorNumber.ConsoleApp
 {
     class ContainerConfig
     {
@@ -12,11 +10,10 @@ namespace AgeMajority.ConsoleApp
             var builder = new ContainerBuilder();
 
             builder.RegisterType<Application>().As<IApplication>();
-            builder.RegisterType<AgeMajorityService>().As<IAgeMajorityService>();
+            builder.RegisterType<NumbersService>().As<INumbersService>();
             builder.RegisterType<Validation>().As<IValidation>();
 
             return builder.Build();
-
         }
     }
 }

@@ -20,3 +20,7 @@ D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\MajorMinorNu
 D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\MajorMinorNumber.ConsoleApp\obj\Debug\netcoreapp3.1\MajorMinorNumber.ConsoleApp.AssemblyInfo.cs
 D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\MajorMinorNumber.ConsoleApp\obj\Debug\netcoreapp3.1\MajorMinorNumber.ConsoleApp.dll
 D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\MajorMinorNumber.ConsoleApp\obj\Debug\netcoreapp3.1\MajorMinorNumber.ConsoleApp.pdb
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\MajorMinorNumber.ConsoleApp\obj\Debug\netcoreapp3.1\MajorMinorNumber.ConsoleApp.Resources.Messages.resources
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\MajorMinorNumber.ConsoleApp\obj\Debug\netcoreapp3.1\MajorMinorNumber.ConsoleApp.csproj.GenerateResource.cache
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\MajorMinorNumber.ConsoleApp\bin\Debug\netcoreapp3.1\Autofac.dll
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\MajorMinorNumber.ConsoleApp\obj\Debug\netcoreapp3.1\MajorMinorNumber.ConsoleApp.csproj.CopyComplete

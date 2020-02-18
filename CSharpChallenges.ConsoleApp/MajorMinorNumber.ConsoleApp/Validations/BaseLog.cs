@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace AgeMajority.ConsoleApp.Validations
+namespace MajorMinorNumber.ConsoleApp
 {
     public abstract class BaseLog
     {
