@@ -8,6 +8,8 @@ D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\ob
 D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\obj\Debug\netcoreapp3.1\SortDates.ConsoleApp.AssemblyInfo.cs
 D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\obj\Debug\netcoreapp3.1\SortDates.ConsoleApp.dll
 D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\obj\Debug\netcoreapp3.1\SortDates.ConsoleApp.pdb
-D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\obj\Debug\netcoreapp3.1\SortDates.ConsoleApp.Resource1.resources
 D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\obj\Debug\netcoreapp3.1\SortDates.ConsoleApp.csproj.GenerateResource.cache
 D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\obj\Debug\netcoreapp3.1\SortDates.ConsoleApp.csprojAssemblyReference.cache
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\obj\Debug\netcoreapp3.1\SortDates.ConsoleApp.Resources.Messages.resources
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\bin\Debug\netcoreapp3.1\Autofac.dll
+D:\projects\CSharpChallenges.ConsoleApp\CSharpChallenges.ConsoleApp\SortDates\obj\Debug\netcoreapp3.1\SortDates.ConsoleApp.csproj.CopyComplete

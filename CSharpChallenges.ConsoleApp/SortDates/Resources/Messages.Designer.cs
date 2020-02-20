@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SortDates.ConsoleApp {
+namespace SortDates.ConsoleApp.Resources {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace SortDates.ConsoleApp {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Resource1 {
+    public class Messages {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resource1() {
+        internal Messages() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace SortDates.ConsoleApp {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SortDates.ConsoleApp.Resource1", typeof(Resource1).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SortDates.ConsoleApp.Resources.Messages", typeof(Messages).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,11 +61,29 @@ namespace SortDates.ConsoleApp {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to THE SORT FROM THE LOWER / LARGEST DATE IS.
+        ///   Looks up a localized string similar to .
         /// </summary>
-        public static string SORT_FROM {
+        public static string ENTER_DATES_OR_PRESS_Q_QUIT {
             get {
-                return ResourceManager.GetString("SORT_FROM", resourceCulture);
+                return ResourceManager.GetString("ENTER_DATES_OR_PRESS_Q_QUIT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Format incorrect, please insert a valid date..
+        /// </summary>
+        public static string INVALID_DATE {
+            get {
+                return ResourceManager.GetString("INVALID_DATE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dates sequence from early to later:.
+        /// </summary>
+        public static string SORT_DATE_SEQUENCE {
+            get {
+                return ResourceManager.GetString("SORT_DATE_SEQUENCE", resourceCulture);
             }
         }
     }

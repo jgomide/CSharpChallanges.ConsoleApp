@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SortDates.ConsoleApp.Resources;
+
+using System;
 
 namespace SortDates.ConsoleApp
 {
@@ -22,13 +24,13 @@ namespace SortDates.ConsoleApp
         /// <param name="dateInput">String</param>
         /// <param name="dateCheckAppService">DateCheckAppService</param>
         /// <returns></returns>
-        public static bool IsDateTime(this string dateInput, DateCheckAppService dateCheckAppService)
+        public static bool IsDateTime(this string dateInput)
         {
             var isValid = DateTime.TryParse(dateInput, out _);
 
             if (!isValid)
             {
-                dateCheckAppService.ListLogs.Add(new LogMessage(Enums.CodeMessageEnum.INVALID_DATE, "Format incorrect, please insert a valid date."));
+                //AddLogMessage(new LogMessage(Messages.INVALID_DATE));
             }
 
             return isValid;

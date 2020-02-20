@@ -1,13 +1,13 @@
 ﻿
 namespace SortDates.ConsoleApp
 {
-    static class Utilities
+    static class NumConverter
     {
         public enum DateSeq
         {
             first=1, second=2, third=3
         }
-        public static string DateCount(int inputCount)
+        public static string LiteralNumConverter(int inputCount)
         {
             if (inputCount == 0) return "FIRST";
             else if (inputCount == 1) return "SECOND";
